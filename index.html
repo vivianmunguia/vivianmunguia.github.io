@@ -550,19 +550,22 @@
                 <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
                     <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
 
-                    <form action="#" method="POST" class="cf">
+                    <form action="https://formsubmit.co/vivian.munguia.mtz@gmail.com" method="POST" class="cf">
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                                <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name" required>
                             </div> 
                             <div class="col-lg-6">
-                                <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                                <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email" required>
                             </div>
                             <div class="col-12">
-                                <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                                <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject" required>
                             </div>
                             <div class="col-12">
-                                <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                                <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input name="_next" class="form-control form__color mb-30 cf" placeholder="Subject" type="hidden" value="https://vivianmunguia.github.io/thankYou.html">
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="button button--flex send-message form_button">
