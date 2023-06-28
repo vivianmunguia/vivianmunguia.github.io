@@ -1564,3 +1564,15 @@ img{
     width: 100%;
     top: 180px;
   }
+
+  .course__information {
+      /*margin-bottom: var(--mb-2-5);*/
+      color: var(--first-color);
+      font-size: var(--h4-font-size);
+      font-weight: var(--font-medium);
+      cursor: pointer;
+      position: relative;
+      margin-bottom: var(--mb-1);
+      margin-top: var(--mb-1);
+      text-align: left;
+  }
