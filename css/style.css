@@ -1576,3 +1576,7 @@ img{
       margin-top: var(--mb-1);
       text-align: left;
   }
+
+  .projects__list {
+    list-style-type: circle;
+  }
